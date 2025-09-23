@@ -3,7 +3,8 @@
 Paddle::Paddle(Vector2 _pos, Vector2 _size):
 	Actor(_pos, _size, ActorType::UI, AssetList::GetTexture("Button"))
 {
-
+	SetHasCollision(true);
+	SetEnabled(true);
 }
 
 Paddle::~Paddle() {

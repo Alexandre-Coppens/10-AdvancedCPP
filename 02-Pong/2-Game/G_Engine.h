@@ -1,4 +1,5 @@
-#pragma once
+#ifndef G_ENGINE_H
+#define G_ENGINE_H
 
 #include "raylib.h"
 
@@ -28,3 +29,5 @@ public:
 	void Update();
 	void Draw();
 };
+
+#endif // !G_ENGINE_H

@@ -13,6 +13,7 @@ using std::map;
 class Ball : public Actor {
 private:
     int speed{ 500 };
+    int minSpeed{ 500 };
     Vector2 direction{};
 public:
 
